@@ -1,5 +1,7 @@
 const app = "I don't do much."
 
+Kittens = ['Milo', 'Otis', 'Garfield']
+
 function destructivelyAppendKitten(name){
-  Arrays.push(name)
+  Kittens.push(name)
 }

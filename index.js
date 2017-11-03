@@ -22,3 +22,8 @@ function appendKitten(name) {
   const app = [...kittens, name]
   return app
 }
+
+function prependKitten(name) {
+  const app = [name, ...kittens]
+  return app
+}

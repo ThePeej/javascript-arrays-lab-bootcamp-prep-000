@@ -27,3 +27,7 @@ function prependKitten(name) {
   const app = [name, ...kittens]
   return app
 }
+
+function removeLastKitten(){
+  
+}
